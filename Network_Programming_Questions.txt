@@ -1,0 +1,63 @@
+1.	Write a program using UDP socket to do the following jobs:
+a.	Echo message
+b.	Menu driven mathematical operation.
+c.	Client will send “DAYTIME” to the server and the server will send back the corresponding date and time with a greetings like “Good Morning” or “Good Evening” depending on the time. 
+
+2.	Write a program using TCP socket to do the following jobs:
+a.	Echo message (to be seen both on server and clients)
+b.	Menu driven mathematical operation (ADD, SUBTRACT, MULTIPLY, DIVISION, MODULUS)
+c.	Client will send “DAYTIME” to the server and the server will send back the corresponding date and time with a greetings like “Good Morning” or “Good Evening” depending on the time. 
+
+3.	Implement Manchester Encoding and Differential Manchester Encoding for the binary data 1011100010. Provide screenshot of the output generated. Note the result and draw the corresponding timing diagram for the resultant waveform. 
+
+4.	Write a program to demonstrate bit-stuffing technique. Assume the flag pattern is 111110. Your program should stuff bits accordingly and de-stuff the stuffed bit string. The system will identify the position(s) of bit-stuffing, stuff bit(s) autonomously. User will input data and flag only. The program will de-stuff the bit(s) when user instruct to the program. 
+
+5.	Write a program to detect error using CRC technique. The message to transmit is M=110001101, divisor polynomial D=X4+X2+1. Your program output should show the transmitting bit-stream along with CRC, error detected if any and the received message. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PCA2: 6 to 13
+6.	Write a program error detection using Checksum technique. The message will be input by the user. The number of bits in the input message should be in multiple of 4. Your program should dynamically divide the message taking 4 bits in a slice i.e if number of input bits is 20, number of slices will be 5. The output of your program should show the transmitting message slices.
+
+7.	Write a program hamming code generation for error detection/correction. Message will be input by the user. Your program should be able to calculate the number of redundant bits. The final output should show the transmitting stream of bits. The user will be asked to introduce error in the transmitting message. Your program should detect the position of the error and rectify it. Finally the corrected message should be shown.   
+
+8.	Write a program to identify the class of a given IP address. Address will be input in dotted decimal format. 
+
+9.	Write a program using TCP socket to do the following jobs:
+a.	Demonstrate the CRC, where client will send   
+b.	Menu driven mathematical operation.
+c.	Client will send “DAYTIME” to the server and the server will send back the corresponding date and time with a greetings like “Good Morning” or “Good Evening” depending on the time. 
+
+
+10.	Write a program to Demonstrate RSA algorithm. Try RSA algorithm using Socket programming. 
+
+11.	Write a program to simulate Distance-Vector Routing for the following adjacency matrix. Assume source node is A, Destination node is E. Find the shortest path. Find out all possible paths from A to E. 
+
+	A	B	C	D	E	F	G	H
+A	0	2	Inf	3	Inf	4	Inf	1
+B	2	0	4	1	5	Inf	1	Inf
+C	Inf	4	0	6	1	3	1	3
+D	3	1	6	0	5	Inf	Inf	2
+E	Inf	5	1	5	0	4	5	2
+F	4	Inf	3	Inf	4	0	3	Inf
+G	Inf	1	1	Inf	5	3	0	Inf
+H	1	Inf	3	2	2	Inf	Inf	0
+
+12.	Write a program to check the graph mentioned in Question no. 9 is connected graph or disconnected graph. If you find it to be disconnected then find which node belongs to which component of the graph.   
+
+13.	Refer to the graph in Question 9. Assume that the nodes are randomly changing their positions every 3 seconds. Find out the most stable path from A to E.
